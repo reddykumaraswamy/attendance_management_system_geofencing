@@ -17,28 +17,14 @@ import pyrebase
 from firebase_admin import db
 
 
-# firebaseConfig = {
-#   'apiKey': "AIzaSyDqPoqD2wCzIX1PZ9WIFqn8Wn1-bBxbyx0",
-#   'authDomain': "tkinter-attendancesystem.firebaseapp.com",
-#   'databaseURL': "https://tkinter-attendancesystem-default-rtdb.firebaseio.com",
-#   'projectId': "tkinter-attendancesystem",
-#   'storageBucket': "tkinter-attendancesystem.appspot.com",
-#   'messagingSenderId': "958719958339",
-#   'appId': "1:958719958339:web:fcf81f7252df3cc8b1a3f6",
-#   'measurementId': "G-EYK3PMMX1X"
-# }
-#
-# firebase = pyrebase.initialize_app(firebaseConfig)
-#
-# storage = firebase.storage()
 
 def run_python_script():
-    script_path = r"C:\Users\reddy\PycharmProjects\Face_Recognition_Based_Attendance_System\main.py"
+    script_path = r"main.py"
     subprocess.run(["python", script_path])
 
 
 def add_face_script():
-    script_path = r"C:\Users\reddy\PycharmProjects\Face_Recognition_Based_Attendance_System\add_faces.py"
+    script_path = r"add_faces.py"
     subprocess.run(["python", script_path])
 
 

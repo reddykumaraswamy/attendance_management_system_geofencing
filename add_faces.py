@@ -4,7 +4,7 @@ import pickle as pkl
 import os
 
 video = cv2.VideoCapture(0)
-facedetect = cv2.CascadeClassifier('C:/Users/reddy/PycharmProjects/Face_Recognition_Based_Attendance_System/data/haarcascades/haarcascade_frontalface_default.xml')
+facedetect = cv2.CascadeClassifier('./data/haarcascades/haarcascade_frontalface_default.xml')
 faces_data = []
 i = 0
 
